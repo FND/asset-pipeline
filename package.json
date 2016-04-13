@@ -4,7 +4,7 @@
     "watch-js": "webpack --progress --colors --watch",
     "compile-js": "webpack",
     "watch-css": "…",
-    "compile-css": "…",
+    "compile-css": "gulp --gulpfile gulpfile.styles.js",
     "test": "eslint --cache *.js src && echo ✓"
   },
   "dependencies": {},
@@ -16,6 +16,11 @@
     "eslint-config-standard": "^5.1.0",
     "eslint-plugin-promise": "^1.1.0",
     "eslint-plugin-standard": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
     "npm-run-all": "^1.7.0",
     "webpack": "^1.12.15"
   }

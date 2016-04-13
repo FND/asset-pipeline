@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "npm-run-all --parallel watch-css watch-js",
+    "watch-js": "…",
+    "compile-js": "…",
+    "watch-css": "…",
+    "compile-css": "…"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^1.7.0"
+  }
+}
